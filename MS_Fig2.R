@@ -1,7 +1,15 @@
-#####################################################
-#### PFD via relative nonlinearity ##################
-#####################################################
+#################################################################################
+#### Coexistence theory and the frequency-dependence of priority effects 
+#### Ke & Letten (2018) Nature Ecology & Evolution
+#### This R script creates Figure 2 in the main text
+#### Positive frequency dependence emerges from endogenously generated resource fluctuations
+#################################################################################
 
+
+
+######################################
+#### Load packages
+######################################
 library(deSolve)
 library(tidyr)
 library(ggplot2)
